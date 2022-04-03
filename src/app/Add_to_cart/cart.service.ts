@@ -7,7 +7,7 @@ import { Add_to_cart } from './Add_to_cart';
 })
 export class CartService {
 
-  public baseUrl = "http://localhost:8070/cart";
+  public baseUrl = "http://localhost:7878/cart";
 
   constructor(private http: HttpClient) { }
 
@@ -29,18 +29,14 @@ export class CartService {
 
 
   // Create User								
-  public createCart(user: Add_to_cart) {
-
+  public createCart(user: Add_to_cart) 
+  {
     return this.http.post<any>(this.baseUrl + '/addcart', user);
     
   }
 
 
 
-  // // Modify User								
-  // updateCart(user: Add_to_cart) {
-  //   return this.http.put(this.baseUrl + '/updatecart' + user.id, user);
-  // }
 
 
 

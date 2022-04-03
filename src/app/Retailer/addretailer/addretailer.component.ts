@@ -14,7 +14,7 @@ export class AddretailerComponent implements OnInit {
   addForm: any;
   submitted: boolean = false;
   message:string="successfully login";
-  //message1:string ="somthing is  missing";
+
 
   constructor(private formBuilder: FormBuilder, private router: Router,
     private retService: RetailerService) { }
@@ -39,7 +39,7 @@ export class AddretailerComponent implements OnInit {
     if (this.addForm.invalid) {
       return ;
     }
-    //alert(this.message1)
+    
     this.retService.addRetailer(this.addForm.value)
       .subscribe(data => {
         this.router.navigate(['/verfiyRetailer']);

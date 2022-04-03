@@ -13,8 +13,7 @@ export class PaymentComponent implements OnInit {
   ngOnInit(): void {
   }
   saveit(){
-    // the url,html tag should be called from here , how ?
-   // window.open('/success');
+   
     this.router.navigate(['/success']);
     }
 

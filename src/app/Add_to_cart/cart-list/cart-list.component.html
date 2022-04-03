@@ -1,4 +1,4 @@
-<p>cart-list works!</p>
+
 
 <div class="container">
     <table class="table table-striped table-bordered">
@@ -7,14 +7,16 @@
                 <th>Cart Id</th>
                 <th>Login Id</th>
                 <th>Product Id</th>  
-                 
+               
             </tr>
         </thead>
         <tbody>
-              <tr *ngFor="let c of cartList;">              
+              <tr *ngFor="let c of cartList;">     
+                    
                 <td> {{c.cartId}} </td>
                 <td> {{c.loginId}} </td>
-                <td> {{c.prdId}} </td>                       
+                <td> {{c.prdId}} </td>     
+                            
                
             </tr>
         </tbody>

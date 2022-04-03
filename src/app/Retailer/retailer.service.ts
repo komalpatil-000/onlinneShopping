@@ -7,7 +7,7 @@ import { Retailer } from './Retailer';
 })
 export class RetailerService {
 
-  public baseUrl="http://localhost:8181/retailer";
+  public baseUrl="http://localhost:7878/retailer";
 
   constructor(private http:HttpClient) { }
 

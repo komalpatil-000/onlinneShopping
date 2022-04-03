@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: palevioletred;
+    margin-bottom: 20px;
+  }
+
+  ul{
+    color: rgb(8, 8, 8);
+    line-height: 22px;
+    margin-bottom: 12px;
+    font-style: montserrat;
+    font-size: 20px;
+   
+  }

@@ -8,8 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'onlineshopping';
   alert=false;
-  // public onA():void
-  // {
-  //  alert("czj nsdck ndfv")
-  // }
+ 
 }

@@ -15,9 +15,9 @@ export class ProductHomeComponent implements OnInit {
 
 
   saveit(){
-    // the url,html tag should be called from here , how ?
+    
     this.router.navigate(['/payment']);
-   // window.open('/payment');
+
     }
 
     saveit1(){

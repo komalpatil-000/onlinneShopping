@@ -7,7 +7,7 @@ import { Admin } from './Admin';
 })
 export class AdminService {
 
-  public baseUrl="http://localhost:8181/admin";
+  public baseUrl="http://localhost:7878/admin";
 
   constructor(private http:HttpClient) { }
 

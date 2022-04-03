@@ -33,6 +33,9 @@ import { ProductDescComponent } from './Product/product-desc/product-desc.compon
 import { AddretailerComponent } from './Retailer/addretailer/addretailer.component';
 import { PaymentComponent } from './Product/payment/payment.component';
 import { PaySuccessComponent } from './Product/pay-success/pay-success.component';
+import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.component';
+import { ReadMoreComponent } from './read-more/read-more.component';
+
 
 
 
@@ -67,7 +70,9 @@ import { PaySuccessComponent } from './Product/pay-success/pay-success.component
     AddretailerComponent,
     PaymentComponent,
     PaySuccessComponent,
-  
+    ForgetpasswordComponent,
+    ReadMoreComponent,
+
   ],
   imports: [
     BrowserModule,

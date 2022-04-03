@@ -7,7 +7,7 @@ import { Product } from './Product';
 })
 export class ProductService {
 
-  public baseUrl="http://localhost:8181/product";
+  public baseUrl="http://localhost:7878/product";
 
   constructor(private http:HttpClient) { }
 

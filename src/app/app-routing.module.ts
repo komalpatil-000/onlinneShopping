@@ -8,6 +8,8 @@ import { AddAdminComponent } from './Admin/add-admin/add-admin.component';
 import { AdminListComponent } from './Admin/admin-list/admin-list.component';
 import { FindAdminComponent } from './Admin/find-admin/find-admin.component';
 import { VerifyAdminComponent } from './Admin/verify-admin/verify-admin.component';
+import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.component';
+
 //import { CarouselComponent } from './carousel/carousel.component';
 import { HomeComponent } from './home/home.component';
 import { AddLoginComponent } from './Login/add-login/add-login.component';
@@ -24,6 +26,7 @@ import { PaymentComponent } from './Product/payment/payment.component';
 import { ProductDescComponent } from './Product/product-desc/product-desc.component';
 import { ProductHomeComponent } from './Product/product-home/product-home.component';
 import { ProductListComponent } from './Product/product-list/product-list.component';
+import { ReadMoreComponent } from './read-more/read-more.component';
 import { AddretailerComponent } from './Retailer/addretailer/addretailer.component';
 import { DeleteRetailerComponent } from './Retailer/delete-retailer/delete-retailer.component';
 import { FindRetailerComponent } from './Retailer/find-retailer/find-retailer.component';
@@ -65,8 +68,10 @@ const routes: Routes = [
 
   {path:'home',component:HomeComponent},
  
-  {path:'aboutus',component:AboutusComponent}
-
+  {path:'aboutus',component:AboutusComponent},
+  {path:'forgetpassword',component:ForgetpasswordComponent},
+{path : "cart-list",component:CartListComponent},
+{path : "read-more",component:ReadMoreComponent},
 
 ];
 
